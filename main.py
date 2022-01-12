@@ -22,7 +22,7 @@ async def on_ready():
     bot.load_extension('dismusic')
     bot.load_extension('dch')
 
-my_secret = os.environ['TOKEN']
+my_secret = os.environ['TOKEN']  #discord auth token.
 
 keep_alive()
 bot.run(my_secret)
